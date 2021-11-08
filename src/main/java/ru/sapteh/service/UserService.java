@@ -27,10 +27,10 @@ public class UserService {
     }
 
     public void update (User user){
-        userDao.save(user);
+        userDao.update(user);
     }
 
     public void delete (User user){
-        userDao.save(user);
+        userDao.delete(user);
     }
 }
