@@ -11,7 +11,7 @@ import javax.persistence.*;
 @RequiredArgsConstructor
 @ToString
 @Entity
-@Table(name = "user", schema = "data_base")
+@Table(name = "users", schema = "data_base")
 
 public class User {
 

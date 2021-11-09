@@ -5,14 +5,12 @@
 
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.sapteh.controller.MainController">
    <children>
-      <Button layoutX="427.0" layoutY="284.0" mnemonicParsing="false" onAction="#addedButton" prefHeight="39.0" prefWidth="81.0" text="Добавить" />
       <Button layoutX="115.0" layoutY="284.0" mnemonicParsing="false" onAction="#exitButton" prefHeight="39.0" prefWidth="87.0" text="Выход" />
-      <TextField fx:id="firstNameText" layoutX="359.0" layoutY="75.0" />
-      <TextField fx:id="lastNameText" layoutX="359.0" layoutY="131.0" />
-      <TextField fx:id="ageText" layoutX="359.0" layoutY="188.0" />
-      <Label layoutX="134.0" layoutY="75.0" prefHeight="25.0" prefWidth="96.0" text="first_name" />
-      <Label layoutX="134.0" layoutY="131.0" prefHeight="25.0" prefWidth="96.0" text="last_name" />
-      <Label layoutX="131.0" layoutY="188.0" prefHeight="25.0" prefWidth="96.0" text="age" />
+      <TextField fx:id="loginText" layoutX="359.0" layoutY="75.0" />
+      <TextField fx:id="passwordText" layoutX="359.0" layoutY="131.0" />
+      <Label layoutX="134.0" layoutY="75.0" prefHeight="25.0" prefWidth="96.0" text="login" />
+      <Label layoutX="134.0" layoutY="131.0" prefHeight="25.0" prefWidth="96.0" text="password" />
       <Button layoutX="265.0" layoutY="284.0" mnemonicParsing="false" onAction="#inputButton" prefHeight="39.0" prefWidth="87.0" text="Ввойти" />
+      <Label fx:id="alertText" layoutX="295.0" layoutY="192.0" />
    </children>
 </AnchorPane>
